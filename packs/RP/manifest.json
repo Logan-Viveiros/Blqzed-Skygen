@@ -1,0 +1,26 @@
+{
+    "format_version": 3,
+    "header": {
+        "name": "Blqzed Skygen",
+        "description": "Blqzed Skygen",
+        "uuid": "688699dd-e6e4-41ce-b7c3-30a536b9e1f6",
+        "version": "1.0.0",
+        "min_engine_version": "1.21.130"
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "bf7dec0a-f8e5-49ac-b030-833f9ee4cf63",
+            "version": "1.0.0"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "iBlqzed"
+        ],
+        "product_type": "addon"
+    },
+    "capabilities": [
+        "pbr"
+    ]
+}

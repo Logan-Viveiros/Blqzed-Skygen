@@ -1,0 +1,35 @@
+{
+    "format_version": "1.21.130",
+    "minecraft:block": {
+        "description": {
+            "identifier": "blqzed:generator",
+            "menu_category": {
+                "category": "items"
+            },
+            "states": {
+                "blqzed:generator_type": []
+            }
+        },
+        "components": {
+            "blqzed:generator": {},
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "blqzed:generator_top"
+                },
+                "sides": {
+                    "texture": "blqzed:generator_dirt"
+                },
+                "right": "sides",
+                "left": "sides",
+                "east": "sides",
+                "west": "sides",
+                "down": {
+                    "texture": "blqzed:generator_bottom"
+                }
+            },
+            "minecraft:display_name": "Generator"
+        },
+        "permutations": []
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Blqzed Skygen",
+        "description": "Blqzed Skygen",
+        "uuid": "da14fcd7-a83e-48a6-99c7-9b0251bec281",
+        "version": "1.0.0",
+        "min_engine_version": [
+            1,
+            21,
+            114
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "2c7bfe61-d20e-435d-a720-368dacccca14",
+            "version": "1.0.0"
+        },
+        {
+            "uuid": "6a00ae21-5022-4489-9a0e-e26479569f45",
+            "version": "1.0.0",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.4.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "iBlqzed"
+        ],
+        "product_type": "addon"
+    }
+}

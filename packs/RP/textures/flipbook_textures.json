@@ -1,0 +1,7 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/generator_top",
+        "atlas_tile": "generator_top",
+        "ticks_per_frame": 10
+    }
+]
